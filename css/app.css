@@ -1,0 +1,248 @@
+.header {
+  background-image: url(../images/Rectangle\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  width: 100%;
+}
+.header-bar {
+  padding: 35px 135px 125px 201px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger-bar {
+  display: none;
+}
+.navigation {
+  max-width: 366px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation li a {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.login-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 78px;
+  height: 40px;
+  background-color: #f84646;
+  border-radius: 5px;
+  border-color: #f84646;
+  color: #fff;
+}
+.login-btn:hover {
+  background-color: #fff;
+  color: #f84646;
+  border-color: #fff;
+}
+.background-block {
+  padding-left: 122px;
+  padding-bottom: 271px;
+  max-width: 650px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 102px;
+}
+.background-block h2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 82px;
+  color: #000000;
+}
+.background-block p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.section-one {
+  max-width: 1153px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+}
+.section-one-header {
+  max-width: 994px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 30px;
+}
+.section-one-header h4 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000000;
+}
+.section-one-header p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.section-one-box {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section-one-box h4 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000000;
+}
+.section-one-box p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.section-one-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 96px;
+}
+.section-two {
+  max-width: 1197px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 174px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 120px;
+}
+.section-two-up {
+  max-width: 608px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-two-up h3 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  color: #2e2e2e;
+}
+.section-two-up p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #808080;
+}
+.section-two-up button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 48px;
+  background-color: #f84646;
+  border-radius: 8px;
+  border-color: #f84646;
+  color: #fff;
+}
+.section-two-up button:hover {
+  background-color: #fff;
+  color: #f84646;
+  border-color: #fff;
+}
+
+.up-block {
+  display: flex;
+  flex-direction: row;
+  column-gap: 170px;
+}
+.up-block-two {
+  display: flex;
+  flex-direction: row;
+  column-gap: 170px;
+}
+.sec-two-img-one {
+  max-width: 504px;
+  width: 100%;
+}
+.sec-two-img-one img {
+  width: 100%;
+}
+.sec-two-img {
+  max-width: 504px;
+  width: 100%;
+}
+.sec-two-img img {
+  width: 100%;
+}
+.sec-two-img-two {
+  display: none;
+  max-width: 504px;
+  width: 100%;
+}
+.sec-two-img-two img {
+  width: 100%;
+}
+.footer {
+  max-width: 100%;
+  width: 100%;
+  margin-top: 87px;
+  background-color: #f8464a;
+}
+.footer-block {
+  max-width: 1034px;
+  width: 100%;
+  padding: 80px 0 152px 104px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #e6e6e6;
+}
+.footer-block-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
