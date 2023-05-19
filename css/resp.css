@@ -76,10 +76,12 @@
   }
   .header-bar {
     padding-left: 20px;
+    padding-right: 20px;
   }
   .background-block {
     align-items: center;
     text-align: center;
+    padding-left: 0;
     row-gap: 60px;
   }
   .background-block h2 {
